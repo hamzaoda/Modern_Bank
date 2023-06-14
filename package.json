@@ -2,11 +2,11 @@
   "name": "bank_modern",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://hamzaoda.github.io/Modern_Bank",
+  "homepage": "https://hamzaoda.github.io/Bank_Modern",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
